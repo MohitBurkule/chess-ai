@@ -497,7 +497,7 @@ $('#startBtn').on('click', function () {
 });
 
 $('#compVsCompBtn').on('click', function () {
-  reset();
+  //reset();
   compVsComp('w');
 });
 $('#resetBtn').on('click', function () {
