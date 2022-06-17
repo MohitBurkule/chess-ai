@@ -23,3 +23,7 @@ A global sum is used to keep track of black's evaluation score after each move, 
 
 ## License
 Use of this project is governed by the [MIT License](LICENSE).
+
+
+[explanation](https://web.archive.org/web/20220606212344/https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/)
+
