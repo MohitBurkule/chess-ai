@@ -462,6 +462,8 @@ function reset() {
 
 $('#stopBtn').on('click', function () {
   killCompvcCmp();
+  $('#compVsCompBtn').prop('disabled', false);
+  $('#stopBtn').prop('disabled', true);
 });
 
 function killCompvcCmp(){
@@ -505,6 +507,8 @@ $('#startBtn').on('click', function () {
 
 $('#compVsCompBtn').on('click', function () {
   //reset();
+  $('#compVsCompBtn').prop('disabled', true);
+  $('#stopBtn').prop('disabled', false);
   compVsComp('w');
 });
 $('#resetBtn').on('click', function () {
