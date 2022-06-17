@@ -456,14 +456,21 @@ function reset() {
   board.position(game.fen());
   $('#advantageColor').text('Neither side');
   $('#advantageNumber').text(globalSum);
+//killCompvcCmp();
 
-  // Kill the Computer vs. Computer callback
+}
+
+$('#stopBtn').on('click', function () {
+  killCompvcCmp();
+});
+
+function killCompvcCmp(){
+	  // Kill the Computer vs. Computer callback
   if (timer) {
     clearTimeout(timer);
     timer = null;
   }
 }
-
 /*
  * Event listeners for various buttons.
  */
