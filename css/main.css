@@ -6,6 +6,7 @@
     max-width: 100%;
     height: auto;
     overflow: scroll;
+	overscroll-behavior: contain
 }
 
 .highlight-white {
